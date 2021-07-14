@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22024" started-at="2021-07-13T18:24:23 IST" finished-at="2021-07-13T18:24:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22024" started-at="2021-07-13T18:24:23 IST" finished-at="2021-07-13T18:24:45 IST">
+      <class name="com.springtestNG.test.SpringBootHelloWorldTests">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.springtestNG.test.SpringBootHelloWorldTests@6e4784bc]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="65" started-at="2021-07-13T18:24:23 IST" finished-at="2021-07-13T18:24:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.springtestNG.test.SpringBootHelloWorldTests@6e4784bc]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="19078" started-at="2021-07-13T18:24:23 IST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2021-07-13T18:24:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.springtestNG.test.SpringBootHelloWorldTests@6e4784bc]" name="setup" is-config="true" duration-ms="336" started-at="2021-07-13T18:24:42 IST" finished-at="2021-07-13T18:24:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springtestNG.test.SpringBootHelloWorldTests@6e4784bc]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="72" started-at="2021-07-13T18:24:43 IST" finished-at="2021-07-13T18:24:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springtestNG.test.SpringBootHelloWorldTests.testEmployee() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testEmployee()[pri:0, instance:com.springtestNG.test.SpringBootHelloWorldTests@6e4784bc]" name="testEmployee" duration-ms="2018" started-at="2021-07-13T18:24:43 IST" finished-at="2021-07-13T18:24:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmployee -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.springtestNG.test.SpringBootHelloWorldTests@6e4784bc]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="63" started-at="2021-07-13T18:24:45 IST" finished-at="2021-07-13T18:24:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.springtestNG.test.SpringBootHelloWorldTests.testEmployee() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.springtestNG.test.SpringBootHelloWorldTests@6e4784bc]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2021-07-13T18:24:45 IST" finished-at="2021-07-13T18:24:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.springtestNG.test.SpringBootHelloWorldTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
